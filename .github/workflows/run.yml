@@ -7,6 +7,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Permision Setting
-        run: chmod 755 ~/kadai4/test.sh
+        run: chmod 755 /home/kadai4/test.sh
       - name: Test Run
         run: ~/kadai4/test.sh
