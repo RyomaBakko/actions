@@ -4,4 +4,9 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "first action!"
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Permision Setting
+        run: chmod 755 ~/kadai4/test.sh
+      - name: Test Run
+        run: ~/kadai4/test.sh
