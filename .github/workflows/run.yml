@@ -8,5 +8,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Check File
         run: ls -l ~/kadai4/
-      - name: Test Run
+      - name: test Run
         run: /home/kadai4/test.sh
