@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+       - name: Check File
+        run: ls -l ~/kadai4/
       - name: Test Run
         run: /home/kadai4/test.sh
